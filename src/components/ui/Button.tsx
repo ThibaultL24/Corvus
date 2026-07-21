@@ -20,7 +20,7 @@ export function Button({ children, className, variant = "primary", ...props }: B
   return (
     <Link
       className={cn(
-        "group inline-flex min-h-12 items-center justify-center border px-5 py-3 text-xs font-bold uppercase tracking-[0.28em] transition duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan",
+        "group inline-flex min-h-12 items-center justify-center border px-4 py-3 text-center text-xs font-bold uppercase tracking-[0.18em] transition duration-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan sm:px-5 sm:tracking-[0.28em]",
         variants[variant],
         className,
       )}

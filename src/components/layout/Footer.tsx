@@ -17,14 +17,14 @@ export function Footer() {
           </div>
           <div className="border-b border-border p-6 md:border-b-0 md:border-r">
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-cyan">Contact</p>
-            <div className="mt-6 space-y-4 text-xs uppercase tracking-[0.14em] text-text-secondary sm:text-sm sm:tracking-[0.18em]">
+            <div className="mt-6 space-y-4 wrap-break-word text-xs uppercase leading-6 tracking-widest text-text-secondary sm:text-sm sm:tracking-[0.18em]">
               <Link href={siteContent.contact.instagramUrl} className="block transition hover:text-cyan">Instagram</Link>
               <Link href={`mailto:${siteContent.contact.email}`} className="block transition hover:text-cyan">Email</Link>
             </div>
           </div>
           <div className="p-6">
             <p className="text-xs font-bold uppercase tracking-[0.28em] text-cyan">Infos</p>
-            <div className="mt-6 space-y-4 text-xs uppercase tracking-[0.14em] text-text-secondary sm:text-sm sm:tracking-[0.18em]">
+            <div className="mt-6 space-y-4 wrap-break-word text-xs uppercase leading-6 tracking-widest text-text-secondary sm:text-sm sm:tracking-[0.18em]">
               <Link href="#" className="block transition hover:text-cyan">Mentions légales</Link>
               <Link href="#" className="block transition hover:text-cyan">Politique de confidentialité</Link>
             </div>

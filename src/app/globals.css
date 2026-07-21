@@ -170,6 +170,23 @@ option {
   transform: rotate(1.6deg);
 }
 
+@media (max-width: 640px) {
+  .sketch-frame-white::before,
+  .sketch-frame-gold::before {
+    inset: -0.25rem -0.28rem;
+  }
+
+  .sketch-frame-white::before {
+    border-width: 0.22rem;
+    border-left-width: 0.32rem;
+  }
+
+  .sketch-frame-gold::before {
+    border-width: 0.2rem;
+    border-right-width: 0.3rem;
+  }
+}
+
 .neon-price-card {
   border: 1px solid rgba(112, 255, 240, 0.88);
   box-shadow:

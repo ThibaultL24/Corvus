@@ -40,8 +40,8 @@ export function Hero() {
         </div>
 
         <motion.div initial={{ opacity: 0, y: 32 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.28 }} className="grid gap-7">
-          <div className="sketch-frame-white relative mx-auto w-full max-w-5xl overflow-visible px-4 py-4 sm:px-8">
-            <p className="font-display text-[clamp(1.35rem,6vw,3.05rem)] font-black uppercase leading-none text-cyan">
+          <div className="sketch-frame-white relative mx-auto w-full max-w-5xl overflow-visible px-2 py-4 sm:px-6 lg:px-8">
+            <p className="font-display text-[clamp(0.82rem,3.4vw,2.35rem)] font-black uppercase leading-none text-cyan sm:text-[clamp(1.08rem,3.1vw,2.55rem)]">
               {siteContent.hero.statementLines.map((line) => (
                 <span key={line} className="block whitespace-nowrap">
                   {line}
@@ -54,9 +54,9 @@ export function Hero() {
             <ProjectMarquee placement="home" />
           </div>
 
-          <div id="services" className="sketch-frame-gold relative mx-auto w-full max-w-5xl bg-background/78 p-5 sm:p-7">
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-cyan sm:tracking-[0.35em]">Services</p>
-            <p className="mt-3 max-w-3xl text-xs font-bold uppercase leading-6 tracking-[0.16em] text-text-primary sm:text-base sm:leading-7 sm:tracking-[0.2em]">
+          <div id="services" className="sketch-frame-gold relative mx-auto w-full max-w-5xl bg-background/78 p-4 sm:p-7">
+            <p className="text-xs font-bold uppercase tracking-[0.24em] text-cyan sm:tracking-[0.35em]">Services</p>
+            <p className="mt-3 max-w-3xl text-xs font-bold uppercase leading-6 tracking-widest text-text-primary sm:text-base sm:leading-7 sm:tracking-[0.2em]">
               {siteContent.hero.subtitle}
             </p>
             <div className="mt-5 grid gap-5 md:grid-cols-[0.75fr_1.25fr] md:items-end">

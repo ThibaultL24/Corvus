@@ -29,14 +29,11 @@ export function ProjectCard({ project, onSelect, variant = "standard" }: Project
         className="object-cover transition duration-700 group-hover:scale-[1.03]"
       />
       <span className="absolute inset-0 bg-linear-to-t from-black via-black/25 to-transparent opacity-75 transition group-hover:opacity-88" />
-      <span className="absolute left-4 top-4 border border-border bg-black/55 px-3 py-2 text-[0.65rem] font-bold uppercase tracking-[0.22em] text-cyan">
-        {project.category}
-      </span>
-      <span className="absolute bottom-0 left-0 right-0 border-t border-border bg-black/72 p-4 backdrop-blur-sm">
-        <span className="block font-display text-2xl font-black uppercase leading-none text-text-primary sm:text-3xl">
+      <span className="absolute bottom-0 left-0 right-0 border-t border-border bg-black/72 p-3 backdrop-blur-sm sm:p-4">
+        <span className="block font-display text-xl font-black uppercase leading-none text-text-primary sm:text-3xl">
           {project.title}
         </span>
-        <span className="mt-3 flex items-center justify-between gap-4 text-[0.65rem] uppercase tracking-[0.22em] text-text-secondary">
+        <span className="mt-2 flex items-center justify-between gap-4 text-[0.62rem] uppercase tracking-[0.16em] text-text-secondary sm:mt-3 sm:tracking-[0.22em]">
           <span>{project.year}</span>
           <span className="text-cyan opacity-0 transition group-hover:opacity-100">Voir le projet</span>
         </span>

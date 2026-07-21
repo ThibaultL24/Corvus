@@ -8,10 +8,10 @@ export function Contact() {
     <section id="contact" className="bg-background px-4 py-20 sm:px-6 sm:py-24 lg:px-10 lg:py-32">
       <div className="mx-auto grid max-w-[1800px] gap-12 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.38em] text-cyan">Contact</p>
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-cyan sm:tracking-[0.38em]">Contact</p>
           <h2 className="mt-5 font-display text-4xl font-black uppercase leading-[0.9] tracking-tighter text-text-primary sm:text-7xl lg:text-8xl">{siteContent.contact.title}</h2>
           <p className="mt-6 max-w-xl text-base leading-8 text-text-secondary sm:mt-8 sm:text-lg sm:leading-9">{siteContent.contact.text}</p>
-          <div className="mt-8 space-y-4 text-xs uppercase tracking-[0.18em] text-text-secondary sm:mt-10 sm:text-sm sm:tracking-[0.22em]">
+          <div className="mt-8 space-y-4 wrap-break-word text-xs uppercase tracking-[0.14em] text-text-secondary sm:mt-10 sm:text-sm sm:tracking-[0.22em]">
             <Link href={siteContent.contact.instagramUrl} className="block text-cyan transition hover:text-cyan-bright">{siteContent.contact.instagram}</Link>
             <Link href={`mailto:${siteContent.contact.email}`} className="block transition hover:text-cyan">{siteContent.contact.email}</Link>
             <p>{siteContent.contact.responseTime}</p>

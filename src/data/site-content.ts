@@ -25,14 +25,12 @@ export const siteContent = {
   },
   recommendations: {
     title: "RECOMMANDATIONS",
-    subtitle:
-      "Des retours clients et une certification en copywriting pour rassurer avant de commander un visuel.",
   },
   fields: {
     title: "CE QUE CORVUS PEUT CRÉER",
   },
   about: {
-    title: "À PROPOS DE CORVUS",
+    title: "À PROPOS",
     headline: "Derrière la constellation Corvus se cache un vaisseau nommé Dylan Lacas.",
     paragraphs: [
       "Durant des années, j'ai voyagé à travers l'espace, naviguant entre le journalisme et le copywriting. Puis vint le jour où une nouvelle étoile attira mon regard : le graphisme.",
@@ -46,12 +44,12 @@ export const siteContent = {
     text:
       "Vous avez un produit, un événement, une marque ou une idée à mettre en image ? Présentez votre projet et recevez une réponse rapidement.",
     instagram: "@corvus.studio",
-    email: "contact@corvus-studio.fr",
+    email: "corvusstudio.pro@gmail.com",
     responseTime: "Réponse indicative sous 24 à 48 h",
     instagramUrl: "https://www.instagram.com/",
   },
   footer: {
-    phrase: "Visuels premium pour idées qui doivent rester en tête.",
+    phrase: "Des visuels taillés dans la nuit pour illuminer votre univers.",
   },
 };
 

@@ -19,7 +19,7 @@ export function SectionHeader({ eyebrow, title, subtitle, align = "left", classN
       <RevealText
         text={title}
         className={cn(
-          "font-display text-5xl font-black uppercase leading-[0.92] tracking-tighter text-text-primary sm:text-7xl lg:text-8xl",
+          "font-display text-3xl font-black uppercase leading-[0.92] tracking-tighter text-text-primary min-[390px]:text-4xl sm:text-7xl lg:text-8xl",
           className,
         )}
       />

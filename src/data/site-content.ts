@@ -33,12 +33,11 @@ export const siteContent = {
   },
   about: {
     title: "À PROPOS DE CORVUS",
+    headline: "Derrière la constellation Corvus se cache un vaisseau nommé Dylan Lacas.",
     paragraphs: [
       "Durant des années, j'ai voyagé à travers l'espace, naviguant entre le journalisme et le copywriting. Puis vint le jour où une nouvelle étoile attira mon regard : le graphisme.",
       "Passionné avant tout, j'ai commencé en autodidacte, façonnant mon œil, affinant mon style et perfectionnant mes compétences jusqu'à trouver mon propre univers.",
-      "Corvus Studio est né de cette trajectoire : un studio indépendant pensé pour créer des visuels publicitaires à forte identité, avec une composition lisible, une atmosphère marquée et une direction artistique adaptée à chaque projet.",
-      "L’objectif n’est pas seulement de produire une belle image, mais de concevoir un visuel capable d’arrêter le regard, de transmettre une intention et de rendre votre univers mémorable.",
-      "Après 33 années passées à explorer mon univers, ma mission est désormais de créer des visuels qui vous aideront, à votre tour, à décrocher les étoiles.",
+      "Après 33 années passées à explorer la galaxie, ma mission est désormais de créer des visuels qui vous aideront, à votre tour, à décrocher les étoiles.",
     ],
     values: ["Impact", "Cohérence", "Cinématographie", "Réactivité", "Attention au détail"],
   },

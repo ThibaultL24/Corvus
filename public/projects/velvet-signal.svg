@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#19121c"/>
+  <rect x="52" y="52" width="1096" height="796" fill="#050505" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+  <path d="M120 710L252 150L930 230L1022 748L120 710Z" stroke="#70FFF0" stroke-width="6" opacity="0.72"/>
+  <path d="M230 670C360 385 620 345 1030 160C960 455 720 730 230 820C292 745 244 704 230 670Z" fill="#000000"/>
+  <path d="M0 159H1200" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+  <path d="M194 0V900" stroke="rgba(78,234,213,0.08)" stroke-width="2"/>
+  <circle cx="252" cy="150" r="10" fill="#70FFF0"/>
+  <circle cx="930" cy="230" r="10" fill="#70FFF0"/>
+  <circle cx="1022" cy="748" r="10" fill="#70FFF0"/>
+  <text x="86" y="146" fill="#70FFF0" font-family="Arial, sans-serif" font-size="28" letter-spacing="12">CORVUS STUDIO 03</text>
+  <text x="82" y="800" fill="#F4F4F2" font-family="Arial Black, Impact, sans-serif" font-size="86" letter-spacing="-4">VELVET SIGNAL</text>
+</svg>
